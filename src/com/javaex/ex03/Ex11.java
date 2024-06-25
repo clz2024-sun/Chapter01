@@ -65,7 +65,6 @@ public class Ex11 {
 				break;
 		}
 		
-		
 		sc.close();
 		
 	}
