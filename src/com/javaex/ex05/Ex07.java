@@ -16,12 +16,9 @@ public class Ex07 {
 			//계속 검사
 			for(int i=0; i<leftArray.length; i++) {
 				//검사
-				if(leftArray[i] == rightArray[i]) {
-					System.out.println(i+ "번째 값이 같습니다.");
-				}else {
+				if( !(leftArray[i] == rightArray[i])) {
 					System.out.println(i+ "번째 값이 다릅니다.");
 				}
-				
 			}
 			
 		}else {
